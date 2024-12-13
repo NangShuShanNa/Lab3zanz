@@ -1,9 +1,9 @@
 ---
-name: Bug Report
-description: File a bug report
+name: NewBugReport
+description: File a bug report.
 title: "[Bug]: "
-labels: ["Bug", "triage"]
-projects: ["octo-org/1", "octo-org/4"]
+labels: ["bug", "triage"]
+projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
 body:
@@ -49,23 +49,18 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
-    validations:
-      required: true
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log outputs
-      description: Please copy and paste any relevant log outputs. This will be automatically formatted into code, so no need for backticks.
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
   - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com).
       options:
         - label: I agree to follow this project's Code of Conduct
-          required: true'
-
+          required: true
 ---
-
-
